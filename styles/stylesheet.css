@@ -126,8 +126,9 @@ button {
     position: relative;
     left: 30%;
     top: 5%;
-    background-color: transparent;
-    backdrop-filter: blur(100px);    
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);    
     color: var(--general_background_color);
     border-style: none;
     border-radius: 100%;

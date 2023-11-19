@@ -16,8 +16,9 @@
             <li><button>Premium</button></li>
         </ul>
         <ul id="account_option_l">
-            <li><button>Sign in</button></li>
-            <li><button>Create account</button></li>
+            <li><button id="mode" value="light">Change to light Mode</button></li>
+            <li><a href="./login.html">Sign in</a></li>
+            <li><a href="./create_account.html">Create account</a></li>
         </ul>
         <h1 id="name">Gamor</h1>
     </div>
@@ -50,10 +51,11 @@
                 <h5>COD Warzone</h5>
                 <hr>
                 <ul>
-                    <li><span class="number">1</span><p class="team_name">Dr Team</p><div class="button_image"><img class="icon" src="./images/fortnite1.jpg" alt=""><button class="add_button">+</button></div></li>
-                    <li><span class="number">2</span><p class="team_name">Mia Plays</p><div class="button_image"><img class="icon" src="./images/fornite2.jpg" alt=""><button class="add_button">+</button></div></li>
-                    <li><span class="number">3</span><p class="team_name">Keoxer</p><div class="button_image"><img class="icon" src="./images/fortnite3.jpg" alt=""><button class="add_button">+</button></div></li>
-                    <li><span class="number">4</span><p class="team_name">Nickmerc</p><div class="button_image"><img class="icon" src="./images/fortnite4.jpg" alt=""><button class="add_button">+</button></div></li>
+                    <li><span class="number">1</span><p class="team_name">Dr Team</p>
+                        <div class="button_image"><img class="icon streamer_img" src="./images/fortnite1.jpg" alt=""><button class="add_button" value="0">+</button></div></li>
+                    <li><span class="number">2</span><p class="team_name">Mia Plays</p><div class="button_image"><img class="icon streamer_img" src="./images/fornite2.jpg" alt=""><button class="add_button" value="1">+</button></div></li>
+                    <li><span class="number">3</span><p class="team_name">Keoxer</p><div class="button_image"><img class="icon streamer_img" src="./images/fortnite3.jpg" alt=""><button class="add_button" value="2">+</button></div></li>
+                    <li><span class="number">4</span><p class="team_name">Nickmerc</p><div class="button_image"><img class="icon streamer_img" src="./images/fortnite4.jpg" alt=""><button class="add_button" value="3">+</button></div></li>
                 </ul>
                 <button>Search Now</button>
             </div>
@@ -99,4 +101,5 @@
     </div>
 
     <script type="text/javascript" src="./scripts/index.js"></script>
+    <script type="text/javascript" src="./scripts/change_theme.js"></script>
 </body>
