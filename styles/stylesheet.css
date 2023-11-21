@@ -160,6 +160,12 @@ button {
     background-repeat: no-repeat;
     /* width: 33%; */
 }
+#center>p {
+    color:rgb(254,254,255) ;
+}
+#center>h2{
+    color:rgb(254,254,255) ;
+}
 #center>button{
     display: block;
     width: 30px;
@@ -226,6 +232,9 @@ button {
     border-radius: 5px;
 }
 
+#right{
+    padding-top: 15%;
+}
 #game_streamers>h5{
     margin: 20px;
 }
