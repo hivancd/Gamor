@@ -19,6 +19,7 @@ function changeMode() {
         r.style.setProperty("--special_color_1", "rgb(234,114,44)");
         r.style.setProperty("--another_background_color", "rgb(255, 255, 255)");
         r.style.setProperty("--center_color", "rgb(125,52,238)");
+        r.style.setProperty("--add_button_bgcolor", "rgb(248, 251, 252)");
         r.style.setProperty("--background_image", "url(../images/fornite2-removebg-preview.png)");
         change_mode_button.value = "dark";
         change_mode_button.innerHTML = "Change to " + change_mode_button.value + " Mode";
@@ -32,6 +33,7 @@ function changeMode() {
         r.style.setProperty("--another_background_color", "rgb(33, 39, 47)");
         r.style.setProperty("--center_color", "rgb(254,137,68)");
         r.style.setProperty("--background_image", "url(../images/fortnite3-removebg-preview.png)");
+        r.style.setProperty("--add_button_bgcolor", "rgb(69, 73, 81)");
         change_mode_button.value = "light";
         change_mode_button.innerHTML = "Change to " + change_mode_button.value + " Mode";
     }
