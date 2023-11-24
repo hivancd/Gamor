@@ -23,6 +23,9 @@ a:visited {
 a:hover {
     color: var(--onhover_color);
 }
+button{
+    cursor: pointer;
+}
 
 #container {
     display: flex;
@@ -85,6 +88,15 @@ button {
     margin-bottom: 10%;
 }
 
+@media screen and (max-width:690px) {
+    #name{
+        order: -1;
+        width: 100%;
+    }
+    /* #header>*{
+        width: 100%;
+    }*/
+} 
 @media screen and (max-width: 1040px) {
     #panel {
         grid-template-columns: 50% 50%;
@@ -97,9 +109,9 @@ button {
 
 @media screen and (max-width: 800px) {
     #panel {
-        display: contents;
-        background-color: var(--panel_background_color);
-    }
+        display:block;
+        /* background-color: var(--panel_background_color); */
+   }
 }
 
 #panel>* {
@@ -149,6 +161,7 @@ button {
 }
 
 #create_account_container {
+    cursor: pointer;
     margin-left: 50px;
     display: inline-block;
     padding: 0%;
@@ -330,7 +343,9 @@ button {
 
 
 #header {
-    display: inline-block;
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-between;
     color: var(--text_color);
     width: 100%;
     background-color: var(--general_background_color);
@@ -383,6 +398,7 @@ li>button:hover {
 }
 
 .category {
+    cursor:pointer;
     text-align: left;
     width: 300px;
     height: 100px;
