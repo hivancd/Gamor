@@ -9,6 +9,6 @@
 - Authentication page (Login)
 - Registration Page
 ### Features
--Authentication. 
+- Authentication. 
 - Website theme change.
 - Game search
